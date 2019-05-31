@@ -25,6 +25,10 @@ namespace Teste
             Console.WriteLine("D".CompareTo("ABC"));
             // Returns 0
             Console.WriteLine("ABC".CompareTo("ABC"));
+
+            Console.WriteLine("Olá".GetHashCode());
+            Console.WriteLine("Olé".GetHashCode());
+            Console.WriteLine("Olá".GetHashCode());
         }
     }
 }
